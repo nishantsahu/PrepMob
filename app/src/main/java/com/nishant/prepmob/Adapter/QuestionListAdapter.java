@@ -1,4 +1,4 @@
-package com.example.prepmob.Adapter;
+package com.nishant.prepmob.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,9 +12,9 @@ import android.widget.TextView;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
-import com.example.prepmob.Data.Questions;
-import com.example.prepmob.QuestionActivity;
-import com.example.prepmob.R;
+import com.nishant.prepmob.Data.Questions;
+import com.nishant.prepmob.QuestionActivity;
+import com.nishant.prepmob.R;
 
 import java.util.List;
 

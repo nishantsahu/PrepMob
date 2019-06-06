@@ -1,4 +1,4 @@
-package com.example.prepmob;
+package com.nishant.prepmob;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

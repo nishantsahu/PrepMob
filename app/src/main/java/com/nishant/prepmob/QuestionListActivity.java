@@ -1,15 +1,14 @@
-package com.example.prepmob;
+package com.nishant.prepmob;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
 
-import com.example.prepmob.Adapter.QuestionListAdapter;
-import com.example.prepmob.Data.Questions;
+import com.nishant.prepmob.Adapter.QuestionListAdapter;
+import com.nishant.prepmob.Data.Questions;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -18,7 +17,6 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import okhttp3.Call;
 import okhttp3.Callback;

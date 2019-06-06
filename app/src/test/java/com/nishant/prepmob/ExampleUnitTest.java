@@ -1,4 +1,4 @@
-package com.example.prepmob;
+package com.nishant.prepmob;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.prepmob.Data;
+package com.nishant.prepmob.Data;
 
 public class Questions {
 
