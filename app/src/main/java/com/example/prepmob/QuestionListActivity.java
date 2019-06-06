@@ -86,6 +86,7 @@ public class QuestionListActivity extends AppCompatActivity {
                             String result = response.body().string();
                             String id, category, type, question, opt1, opt2, opt3, opt4, correctOpt;
                             JSONArray jsonArray = new JSONArray(result);
+                            int questionNumber = 1;
                             for(int i=jsonArray.length()-1 ; i>=0; i--) {
                                 JSONObject jsonObject = jsonArray.getJSONObject(i);
                                 id = jsonObject.getString("id");
@@ -98,11 +99,9 @@ public class QuestionListActivity extends AppCompatActivity {
                                 opt4 = jsonObject.getString("opt4");
                                 correctOpt = jsonObject.optString("correctopt");
 
-                                int len = jsonArray.length();
-                                int questionNumber = len-i;
-
                                 if (category.equals(getIntent().getExtras().getString("category"))) {
                                     questionsList.add(new Questions(id, "", type, "Q" + questionNumber + ". " + question, opt1, opt2, opt3, opt4, correctOpt));
+                                    questionNumber++;
                                 }
                             }
                             adapter = new QuestionListAdapter(QuestionListActivity.this, questionsList);

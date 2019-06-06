@@ -54,7 +54,6 @@
                             android:layout_height="wrap_content"
                             android:text="Quantitative"
                             android:textStyle="bold"
-                            android:textSize="20sp"
                             android:layout_centerInParent="true"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -86,7 +85,6 @@
                             android:layout_height="wrap_content"
                             android:text="Logical"
                             android:textStyle="bold"
-                            android:textSize="20sp"
                             android:layout_centerInParent="true"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -118,7 +116,6 @@
                             android:layout_height="wrap_content"
                             android:text="Verbal"
                             android:textStyle="bold"
-                            android:textSize="20sp"
                             android:layout_centerInParent="true"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -152,7 +149,7 @@
                             Interpretation"
                             android:textAlignment="center"
                             android:textStyle="bold"
-                            android:textSize="20sp"
+
                             android:layout_centerInParent="true"/>
                     </RelativeLayout>
                 </LinearLayout>
